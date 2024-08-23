@@ -17,3 +17,71 @@ You can install `string-surgeon` using npm:
 
 ```bash
 npm install string-surgeon
+```
+
+Or with yarn:
+
+```bash
+yarn add string-surgeon
+```
+
+## Usage
+
+Here's how you can use the functions provided by `string-surgeon`:
+
+```javascript
+import { capitalize, toCamelCase, slugify, toSnakeCase, reverseString, truncate } from 'string-surgeon';
+
+// Example usage
+console.log(capitalize("hello world")); // Output: Hello world
+console.log(toCamelCase("Hello World")); // Output: helloWorld
+console.log(slugify("Hello World!")); // Output: hello-world
+console.log(toSnakeCase("Hello World")); // Output: hello_world
+console.log(reverseString("hello")); // Output: olleh
+console.log(truncate("This is a long sentence", 10)); // Output: This is a ...
+```
+
+## API
+
+### `capitalize(str)`
+
+- **str**: The string to capitalize.
+- **Returns**: A string with the first letter capitalized.
+
+### `toCamelCase(str)`
+
+- **str**: The string to convert to camelCase.
+- **Returns**: The camelCased string.
+
+### `slugify(str)`
+
+- **str**: The string to slugify.
+- **Returns**: A URL-friendly slug.
+
+### `toSnakeCase(str)`
+
+- **str**: The string to convert to snake_case.
+- **Returns**: The snake_cased string.
+
+### `reverseString(str)`
+
+- **str**: The string to reverse.
+- **Returns**: The reversed string.
+
+### `truncate(str, length)`
+
+- **str**: The string to truncate.
+- **length**: The maximum length of the string.
+- **Returns**: The truncated string with ellipsis.
+
+## Contributing
+
+If you find a bug or have an idea for a new feature, feel free to open an issue or submit a pull request on [GitHub](https://github.com/yourusername/string-surgeon).
+
+## License
+
+This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Pritiranjan

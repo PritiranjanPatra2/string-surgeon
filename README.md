@@ -76,7 +76,7 @@ console.log(truncate("This is a long sentence", 10)); // Output: This is a ...
 
 ## Contributing
 
-If you find a bug or have an idea for a new feature, feel free to open an issue or submit a pull request on [GitHub](https://github.com/yourusername/string-surgeon).
+If you find a bug or have an idea for a new feature, feel free to open an issue or submit a pull request on [GitHub](https://github.com/PritiranjanPatra2/string-surgeon.git).
 
 ## License
 

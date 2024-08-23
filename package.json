@@ -1,0 +1,24 @@
+{
+  "name": "string-surgeon",
+  "version": "1.0.2",
+  "description": "A comprehensive set of tools for common string manipulation tasks, such as capitalization, camelCase conversion, slug generation, and more.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "build": "npm run lint && npm run test"
+  },
+  "keywords": [
+    "string",
+    "utilities",
+    "manipulation",
+    "camelCase",
+    "slug",
+    "capitalize",
+    "snake_case"
+  ],
+  "author": "Pritiranjan",
+  "license": "ISC"
+}
